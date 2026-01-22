@@ -241,6 +241,11 @@ st.markdown("""
         margin-left: 8px;
         font-weight: normal;
     }
+    .stTitle h1 {
+    font-size: 46px !important;
+    font-weight: 700 !important;
+    margin-bottom: 0.3em;
+    }
 </style>
 """, unsafe_allow_html=True)
 
