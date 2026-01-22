@@ -241,11 +241,16 @@ st.markdown("""
         margin-left: 8px;
         font-weight: normal;
     }
-    .stTitle h1 {
-    font-size: 46px !important;
-    font-weight: 700 !important;
-    margin-bottom: 0.3em;
+    /* Force Streamlit title size override */
+    .stMarkdown h1 span,
+    .stMarkdown h1,
+    [data-testid="stMarkdownContainer"] h1 span,
+    [data-testid="stMarkdownContainer"] h1 {
+        font-size: 48px !important;
+        line-height: 1.2 !important;
+        font-weight: 700 !important;
     }
+
 </style>
 """, unsafe_allow_html=True)
 
