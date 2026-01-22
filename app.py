@@ -9,7 +9,7 @@ from data_processor import load_and_enrich_data, generate_podcast_data
 
 # Page Configuration
 st.set_page_config(
-    page_title="Harmony: Music & Mood Dashboard",
+    page_title="Harmony AM: Music & Mood Dashboard",
     page_icon="🎵",
     layout="wide",
     initial_sidebar_state="expanded"
