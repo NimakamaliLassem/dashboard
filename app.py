@@ -245,7 +245,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Application Title
-st.title("🎵 Harmony: Personal Music Analytics")
+st.title("🎵 Harmony AM: Personal Music Analytics")
 st.markdown("Explore your listening habits, mood patterns, and audio features.")
 
 # Load Data
